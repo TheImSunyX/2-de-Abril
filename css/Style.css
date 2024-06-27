@@ -1,0 +1,131 @@
+.Logo{
+    display: grid;
+    justify-items: center;
+    margin: 15px 10px 10px;
+}
+
+.Logotipo {
+    width: 150px;
+}
+
+.Nuevocolor {
+    background-color: rgb(5, 6, 78);
+}
+
+.Navbar{
+    -webkit-text-fill-color: white;
+}
+
+.Inicio{
+    -webkit-text-fill-color: white;
+}
+
+.PSA{
+    -webkit-text-fill-color: white;
+}
+
+.PBA{
+    -webkit-text-fill-color: white;
+}
+
+.Pistoleras{
+    -webkit-text-fill-color: white;
+}
+
+.Molle{
+    -webkit-text-fill-color: white;
+}
+
+.Cadetes{
+    -webkit-text-fill-color: white;
+}
+
+.Contacto{
+    -webkit-text-fill-color: white;
+}
+
+.Carrusel{
+    height: 650px;
+}
+
+.Cartas{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 50% 50%; */
+    justify-items: center;
+}
+
+.card{
+    /* width: 20px; */
+    /* margin: 30px 30px 30px; */
+    margin-top: 30px;
+    width: 20rem;
+}
+
+.card-body{
+    flex: auto;
+    /* width: 20px; */
+    position: relative;
+    -ms-flex-align: center;
+    height: max-content;
+}
+
+.Footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    /* padding: 50px; */
+    background-color: rgb(5, 6, 78);
+    justify-items: center;
+}
+
+.columna{
+    -webkit-text-fill-color: white;
+    margin: 25px;
+}
+
+.Links{
+    list-style: none;
+}
+
+.a{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.botones{
+    display: grid;
+    justify-items: left;
+}
+
+.b{
+    margin-top: 20px;
+}
+
+@media (max-width:992px) {
+    .Cartas{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        -ms-grid-column-align: center;
+        /* grid-template-rows: 50% 50%; */
+    }
+    .card{
+        width: 19rem;
+    }
+}
+
+@media (max-width:768px) {
+    .Cartas{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        /* grid-template-rows: 50% 50%; */
+        margin: 0;
+    }
+    .card{
+        width: 18rem;
+    }
+}
